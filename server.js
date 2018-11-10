@@ -68,9 +68,7 @@ app.get('/projects', (req, res) => {
 });
 
 app.get('/maintenance', (req, res) => {
-    res.render('maintenance.hbs', {
-        pageTitle: 'We\'ll be right back!'
-    });
+    res.render('maintenance.hbs');
 });
 
 app.get('/bad', (req, res) => {
